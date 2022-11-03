@@ -1,0 +1,85 @@
+
+h5
+{
+    height: 120px;
+    width: 120px;
+    background: turquoise;
+    position: absolute;
+    margin: 0px;
+    border-radius: 2em;
+    font-family: 'Lobster', cursive;
+}
+
+.contenedor
+{
+    position: relative;
+    border: 4px solid white;
+    margin: 50px auto;
+    height: 320px;
+    width: 320px;
+    background-color: teal;
+    border-radius: 2em;
+}
+
+
+.caja2
+{
+    right: 0px;
+}
+
+.caja3
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+.caja4
+{
+    bottom: 0px;
+}
+
+.caja5
+{
+    height: 160px;
+    width: 160px;
+    bottom:0px; left:0px; right: 0px; top:0px; 
+    margin: auto;
+    background-color: teal;
+    text-align: center;
+    font-size: 30px;
+}
+
+b
+{
+    bottom:0px; left:0px; right: 0px; top:0px; 
+    margin: auto;
+    background: rgb(128, 109, 197);
+    border-radius: 1em;
+    position:absolute;
+    height: 80px;
+    width: 80px;
+}
+
+
+/* diferencia entre un posicion absolute y un relative es que 
+al moverse siendo absolute, la caja no conserva su posiciono 
+deja de tener el espacio reservado para el mientras que en relative, 
+a pesar de moverse la caja conserva la referencia como
+punto de partida es decir la referencoa no se mueve mientras
+que con absolute si */
+
+/* tenemos 2 propiedades mas uqe son elo fixed donde este se queda
+con un posicion relativa o como en el outline, no tiene un lugar real
+solo estte rrelatico a su posicion, y este nuca se muebve de ghay efecto principal
+si no corres el texto siguiente el espacion que ocupa la cja con fixed, quedara tapado por 
+este, el sticky, si mantiene su pocison, aqui se parece a la propiedad relativa
+porque mantoene su punto de partuicda absoluto, no se m jueve, este queda reservado.
+ */
+
+ h3
+ {
+     background-color:red;
+     position: sticky;
+     opacity: 0.8;
+     top:0px
+ }

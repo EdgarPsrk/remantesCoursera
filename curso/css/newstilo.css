@@ -1,0 +1,72 @@
+/* position:relative, coloca laposicion de
+manera relativa en el espaci qe ocupa, osea lo 
+podemos mover, cuando colocamo el RELATIVE adquire la 
+propiedad top, left, buttom y right, siendo de mas importancia
+top y left, tambien adquire la propiedad z-index que 
+nos da la prioridad d mostar con las cajas, es decir muestra 
+primero aquel que tenga un valor mas alto, por defecto
+coloca las cajas en cascada */
+/* 
+si un contenedor esta posicionado, sera la referencia
+desde donde va a moverse los elementos 
+*/
+
+h1
+{
+    color: brown;
+    background-color: lightcoral;
+    text-shadow: 10px 15px 20px white;
+}
+
+p
+{
+    width: 240px;
+    height: 240px;
+    display: block;
+    margin:0px;
+    position: relative;
+}
+
+#p1
+{
+    background-color: teal; 
+    z-index: 40;
+}
+
+#p2
+{
+    background-color: tomato;
+    top: -240px;
+    left: 120px;
+    z-index: 30;
+    
+}
+
+
+#p3
+{
+    background-color: chocolate;
+    top: -480px;
+    left: 240px;
+    z-index: 20;
+    
+}
+
+#p4
+{
+    background-color: green;
+    top: -720px;
+    left:360px;
+    z-index: 10;
+
+}
+
+#p5
+{
+    background-color: red;
+    top: 0px;
+    left: 0px;
+    
+}
+
+

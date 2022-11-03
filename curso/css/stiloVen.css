@@ -1,0 +1,84 @@
+/* TAMAÑO DE LA FUENTE = font-size 
+PARA ESTE CASO HABLAMOS DE POSICIONES RELATIVAS, USANDO em 
+PERO EL VALOR QUE DEFINIMOS POR font-size SE HEREDA A ESE em
+POSTERIOR
+nota: POR DEFECTO EL EM VIENE GENERALMENTE A 16 PIXELES
+podemousar esto para cualquier propiedad qeueusa memdidas
+PODEMOS UDAR OTRA MEDIDA RELATIXVA COMO vw Y vh PARA 
+VIEW HEIGHT Y VIEWWIDTH ESTO SE AJUSTA UN PORCENTAJE TOTAL 
+DEL DISPOSITIVO
+*/
+
+.contactForm__input
+{
+    color: rgb(0, 255, 13);
+    background-color: darkblue;
+    font-size: 10px;
+}
+
+.contactForm__input
+{
+    font-size: 1em
+}
+/* hay que acomodar el vw vamos en 1:08:55 */
+
+h2
+{
+    background-color:chocolate;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 30px 40px;
+    border-radius: 2em;
+    border: 2px solid black;
+    box-shadow: 10px 20px 15px 10px black;
+    text-shadow: 2px 2px 7px white, 2px 2px 7px white;
+    transform: rotate(40deg );
+}
+
+p
+{
+    line-height: 2;
+}
+
+h1
+{
+    font-size: 2em;
+    font-family:  'Caveat', cursive;;
+    line-height: 2;
+    font-weight: 900;
+}
+
+/* font-size: cambia el tamaño de la letra
+font-family: tipo de leytra asignado
+line-height: al  tera el interlineado de lA LETRA distibuyendo
+de la mitad, es decir del cetro despliega a la mitad la letra hacia arriba y hacia abajo
+font-weight: el ancho de la letra podemmo poner el parametro 100, 400, 700, 900 
+NOTA.MPARA IMPORTAR LETRAS USAMO SGOOGLE FONT, SI LA LETRA ESTA ENTRE COMILLAS
+ESTA SIENDO IMPORTADA DE OTRO SITIO
+*/
+
+/* PODEMOS USAR display PARA CAMBIAR EL COMPORTAMINETO DE LOS ELE,ENTOS USANDO 
+inline OR block, QUE EN BLOQUES PODEMOS ALTERAR EL HEIGHT Y EL WIDTH MIENTRAS QUE 
+LOS ELEMENTOS IN LINE NO 
+NOTA => PODEMOS USAR inline-block PARA QUE SE COMPORTE COMO UN ELEMENTO
+EN LINEA PERO TENGA PROPIEDADES DE UN BLOCK
+*/
+
+/* usamos pading para el margIn detro de un contenedor y margIn para 
+para el margIn entre cajas el padding puede tener 4 parametros 
+emopezando por el top y corriendo en sentido de las manecillas 
+del reloj, pasando por top, right, bottom and left e igualmente para el 
+margin
+NOTA: SI SOLO LE PASAMOS DOS PARAMTROS A PADDING TODA EL PRIMERO 
+PARA LOS LATERALES Y EL SEGUNDO PARA ARRIBA Y ABAJO */
+
+/* propiedades del box-model cuenta con las propiedades
+content => se modifica con line-height
+padding => margen del texgo al contenedro
+border => tipo de border, redondendea el borde
+margin => borde entre cajas
+ */
+
+

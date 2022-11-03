@@ -1,0 +1,96 @@
+/* selector 
+{
+    propiedad :valor
+}
+selector universal: 
+*
+{
+    propiedad:valor
+}
+por etiquetas
+button/h1/h2/p
+{
+     propieda: valor
+}
+por clases 
+.titulo-h1 => siempre lleva el punto y todas las clasas con ese nombre se ven afectadas
+{
+    propieda:valor
+}
+
+por ID
+#idElemento los id son unicos como en base de datos
+{
+    propieda:value
+}
+
+por atributos
+[nombre del atributo = 'basicamente copias lo que pusiste']
+{
+    propieded:value
+}
+
+de manera desendiente
+para seleccionar lo que esta dentro de las etiquetas
+<h1><p></p></p> seleccionamos el ragngo superior y despues lo de adentro
+h1 p
+{
+    propiedad: value
+}
+NOTA => TAMBIEN PODEMO USAR LAS CLASES DE MANERA DESENDIENTE
+
+por seudoclases
+este esta raro porque cambia dependiendo de eventos
+etiqueta: evento
+{
+    propiedad: value
+}
+*/
+button
+{
+    /* propiedad:valor; */
+    color:chocolate;
+}
+
+h1
+{
+    color:rgb(121, 47, 21);
+}
+
+.titulos
+{
+    color:rgb(39, 154, 221);
+}
+
+#idElemento
+{
+    color:rgb(78, 206, 110);
+}
+
+[coso = 'sub']
+{
+    color: purple;
+}
+
+div p
+{
+    color: red;
+    background-color: grey;
+}
+
+h2:hover
+{
+    color: red 
+}
+/* 
+jerarquias =>
+las jerarquias son las fromas en que el htmll se ve afectado por 
+el css
+{
+    important => se declara poniendo delante un !IMPORTANT
+    estiloso en linea
+    identificador
+    clases -> pseudo-clases -> atributos
+    elementos -> pseudo elementos => son las etiquetas
+}
+ */
